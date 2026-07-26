@@ -68,7 +68,7 @@ games:
     options:
       -
         description: "The players guide is available to download for free."
-        link: "https://www.kiwigamedesign.co.uk/_files/ugd/9e54e1_56c3cba05bee40f2b3cbb2a1da7e8351.pdf"
+        link: "files/DoWNE-Player-Guide-v1.1.pdf"
         type: "download"
       -
         description: "The full game pack, fulfilled through DriveThruRPG, for £30."
