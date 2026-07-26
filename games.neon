@@ -42,7 +42,7 @@ games:
     options:
       -
         description: "The players guide is available to download for free."
-        link: "https://www.kiwigamedesign.co.uk/_files/ugd/9e54e1_a18e09953c1644b5a9561cd712bb7765.pdf"
+        link: "files/RavenBanner-Player-Guide-v1.1.pdf"
         type: "download"
       -
         description: "The full game pack, fulfilled through DriveThruRPG, for £15."
@@ -88,7 +88,7 @@ games:
     options:
       -
         description: "The players guide is available to download for free."
-        link: "https://www.kiwigamedesign.co.uk/_files/ugd/9e54e1_f680109ba26c4b258d63ac544d4b9656.pdf"
+        link: "files/CrisisMars-Player-Guide-v1.0.pdf"
         type: "download"
       -
         description: "The full game pack, fulfilled through DriveThruRPG, for £15."
@@ -110,6 +110,11 @@ games:
       Can you work out what's going on, and make the right decisions? And can you push your own agenda forward at the same time?
 
       Crisis: Black Swan is a narrative focused game of geopolitics meeting the unknown. Deploy your limited resources wisely and creatively, cooperate or betray, and create a shared narrative that shapes the world's future.
+    options:
+      -
+        description: "The draft players guide is available to download for free."
+        link: "files/CrisisBlackSwan-Player-Guide-v0.2.pdf"
+        type: "download"
   -
     title: "The Neutral Zone"
     category: "megagames"

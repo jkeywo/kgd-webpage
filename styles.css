@@ -62,10 +62,13 @@ h2 {
 
 .card img {
     width: 100%;
-    min-height: 60px;
+    /* Reserve the space before the image arrives so lazy-loaded
+       banners don't shift the grid as they land. */
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 6px;
     margin-bottom: 0.5rem;
+    background: var(--muted);
 }
 
 .card h3 {
@@ -130,7 +133,7 @@ h2 {
 
 #gameView img.banner {
     width: 100%;
-    min-height: 60px;
+    aspect-ratio: 21 / 9;
     max-height: 420px;
     object-fit: cover;
     border-radius: 10px;
@@ -153,8 +156,19 @@ h2 {
     padding-left: 1.5rem;
 }
 
-/* Buttons */
-button {
+/* Markdown paragraphs and lists */
+.markdown p {
+    margin: 0 0 1rem;
+}
+
+.markdown li {
+    margin-bottom: 0.3rem;
+}
+
+/* Buttons — `button` for in-page actions, `a.action` for anything
+   that leaves the page (downloads and purchases). */
+button,
+a.action {
     padding: 0.7rem 1.2rem;
     margin-right: 0.8rem;
     margin-top: 1rem;
@@ -167,19 +181,25 @@ button {
     transition: background 0.2s ease, transform 0.15s ease;
 }
 
-button:hover {
+button:hover,
+a.action:hover {
     background: var(--accent-dark);
     transform: translateY(-2px);
 }
 
+a.action {
+    display: inline-block;
+    text-decoration: none;
+}
+
 /* Back button */
-#backBtn {
+button.back {
     background: transparent;
     border: 1px solid var(--accent);
     color: var(--accent);
 }
 
-#backBtn:hover {
+button.back:hover {
     background: var(--accent);
     color: white;
 }

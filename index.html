@@ -4,28 +4,32 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kiwi Game Design</title>
+<meta name="description" content="Megagame, boardgame and RPG design.">
+
+<!-- Start the catalogue and parser downloads immediately, in parallel
+     with the module graph, instead of waiting for main.js to run. -->
+<link rel="preload" href="games.neon" as="fetch" crossorigin>
+<link rel="modulepreload" href="main.js">
+<link rel="modulepreload" href="catalogue.js">
+<link rel="modulepreload" href="views.js">
+<link rel="modulepreload" href="prose.js">
+<link rel="modulepreload" href="vendor/js-yaml.js">
+
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1><img src="images/KGDLogo.avif" height="64px" />Kiwi Game Design</h1>
+    <h1><img src="images/KGDLogo.avif" width="64" height="64" alt="">Kiwi Game Design</h1>
 </header>
 
-<main id="homeView">
-    <div class="content">
-        <section id="megagames"><h2>Megagames</h2><div class="grid"></div></section>
-        <section id="boardgames"><h2>Boardgames</h2><div class="grid"></div></section>
-        <section id="roleplaying"><h2>Roleplaying Games</h2><div class="grid"></div></section>
-        <section id="other"><h2>Other Games</h2><div class="grid"></div></section>
-    </div>
-</main>
+<!-- Sections are built from the category taxonomy in catalogue.js. -->
+<main id="homeView"></main>
 
 <main id="gameView" class="hidden">
     <div class="content" id="gameContent"></div>
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
-<script src="script.js"></script>
+<script type="module" src="main.js"></script>
 </body>
 </html>

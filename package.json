@@ -1,0 +1,9 @@
+{
+  "name": "kgd-webpage",
+  "private": true,
+  "type": "module",
+  "description": "Kiwi Game Design site. No dependencies and no build step — this file exists so `node --test` can load the ES modules.",
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}
