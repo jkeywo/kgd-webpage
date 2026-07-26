@@ -45,7 +45,7 @@ games:
         link: "files/RavenBanner-Player-Guide-v1.1.pdf"
         type: "download"
       -
-        description: "The full game pack, fulfilled through DriveThruRPG, for £15."
+        description: "The full game PDF pack, fulfilled through DriveThruRPG, for £15."
         link: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=jkeywo%40yahoo%2eco%2euk&lc=GB&item_name=The%20%Raven%20%Banner&amount=15%2e00&currency_code=GBP&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"
         type: "purchase"
   -
@@ -71,7 +71,7 @@ games:
         link: "files/DoWNE-Player-Guide-v1.1.pdf"
         type: "download"
       -
-        description: "The full game pack, fulfilled through DriveThruRPG, for £30."
+        description: "The full game PDF pack, fulfilled through DriveThruRPG, for £30."
         link: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=jkeywo%40yahoo%2eco%2euk&lc=GB&item_name=Den%20%of%20%Wolves:%20%New%20%Eden&amount=30%2e00&currency_code=GBP&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"
         type: "purchase"
   -
@@ -91,7 +91,7 @@ games:
         link: "files/CrisisMars-Player-Guide-v1.0.pdf"
         type: "download"
       -
-        description: "The full game pack, fulfilled through DriveThruRPG, for £15."
+        description: "The full game PDF pack, fulfilled through DriveThruRPG, for £15."
         link: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=jkeywo%40yahoo%2eco%2euk&lc=GB&item_name=Crisis%20%Mars&amount=15%2e00&currency_code=GBP&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted"
         type: "purchase"
   -
